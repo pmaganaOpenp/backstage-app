@@ -16,7 +16,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: arch
-  system: examples
+  system: BackstagePOC
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
