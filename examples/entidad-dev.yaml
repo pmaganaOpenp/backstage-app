@@ -26,7 +26,7 @@ metadata:
 spec:
   type: database
   owner: arch
-  system: BackstagePOC
+  system: Manager-Jobs
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -36,4 +36,4 @@ metadata:
 spec:
   type: s3-bucket
   owner: arch
-  system: BackstagePOC
+  system: Manager-Jobs
