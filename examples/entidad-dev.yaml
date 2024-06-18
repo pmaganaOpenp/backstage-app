@@ -21,9 +21,19 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: openpay-dev
+  name: openpay-dev-db
   description: Database openpay
 spec:
   type: database
+  owner: arch
+  system: BackstagePOC
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: openpay-dev-s3
+  description: AWS S3 openpay
+spec:
+  type: s3-bucket
   owner: arch
   system: BackstagePOC
