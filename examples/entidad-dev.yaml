@@ -1,0 +1,29 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: BackstagePOC
+spec:
+  owner: arch
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Manager Jobs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: arch
+  system: examples
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: openpay-dev
+  description: Database openpay
+spec:
+  type: database
+  owner: arch
+  system: BackstagePOC
