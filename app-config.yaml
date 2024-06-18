@@ -41,6 +41,7 @@ integrations:
     - username: ${BITBUCKET_CLOUD_USERNAME}
       appPassword: ${BITBUCKET_CLOUD_PASSWORD}
 
+
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
 # and an external cloud storage when deploying TechDocs for production use-case.
@@ -80,7 +81,7 @@ scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
 
 catalog:
-  processingInterval: { minutes: 10 }
+  processingInterval: { minutes: 5 }
   import:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
