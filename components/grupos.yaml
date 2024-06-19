@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: openpay-arquitectura-dev
+  links:
+    - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
+      title: Site Arquitectura
+  description: Diseño de soluciones de negocio aplicando las mejores tecnologías para cada escenario.
+spec:
+  type: team
+  profile:
+    displayName: Arquitectura prueba
+    email: arquitectura@openpay.mx
+  children: []
