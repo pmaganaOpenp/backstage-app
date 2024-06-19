@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: openpay-arquitectura-dev
+  name: openpay-arquitectura
   links:
     - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
       title: Site Arquitectura
@@ -9,13 +9,6 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: Arquitectura prueba
+    displayName: Arquitectura
     email: arquitectura@openpay.mx
   children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: BackstagePOC-arch
-spec:
-  owner: openpay-arquitectura-dev
