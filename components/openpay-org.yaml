@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pmaganaOpenp
+spec:
+  profile:
+    displayName: Pedro Antonio Magaña Zapata
+    email: pedroantonio.magana@openpay.mx
+    picture: https://github.com/pmaganaOpenp/backstage-app/blob/main/user.jpeg
+  memberOf: [arch]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pedromagana
+spec:
+  profile:
+    displayName: Pedro Antonio Magaña Zapata
+    email: pedroantonio.magana@openpay.mx
+    picture: https://raw.githubusercontent.com/pmaganaOpenp/backstage-app/main/user.jpeg
+  memberOf: [arch]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: arch
+  description: Grupo de Arquitectos
+spec:
+  type: team
+  profile:
+    displayName: Arquitectura
+    email: arquitectura@openpay.mx
+  children: []

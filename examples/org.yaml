@@ -27,7 +27,7 @@ metadata:
 spec:
   profile:
     displayName: Carlos Manuel
-    email: pedroantonio.magana@openpay.mx
+    email: carlosmanuel.jaimez@openpay.mx
     picture: https://github.com/pmaganaOpenp/backstage-app/blob/main/user.jpeg
   memberOf: [arch]
 ---
@@ -44,6 +44,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: arch
+  links:
+    - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
+    title: Site Arquitectura
 spec:
   type: team
   children: []
