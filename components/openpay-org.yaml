@@ -27,23 +27,7 @@ metadata:
   links:
     - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
       title: Site Arquitectura
-  description: 
-Equipo de Arquitectura
-
-Diseño de soluciones de negocio aplicando las mejores tecnologías para cada escenario.
-
-Implementación de nuevas tecnologías de desarrollo.
-
-Generación de propuestas de solución.
-
-Definición de arquitecturas macro de las aplicaciones y sus interacciones.
-
-Mejoras estructurales y optimización de componentes existentes.
-
-Lanzamiento de componentes estratégicos.
-
-Aseguramiento de calidad a nivel global
-
+  description: Diseño de soluciones de negocio aplicando las mejores tecnologías para cada escenario.
 spec:
   type: team
   profile:
