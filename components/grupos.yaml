@@ -12,3 +12,10 @@ spec:
     displayName: Arquitectura prueba
     email: arquitectura@openpay.mx
   children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: BackstagePOC-arch
+spec:
+  owner: openpay-arquitectura-dev
