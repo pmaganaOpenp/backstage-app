@@ -81,7 +81,7 @@ scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
 
 catalog:
-  processingInterval: { minutes: 5 }
+  processingInterval: { minutes: 2 }
   import:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration

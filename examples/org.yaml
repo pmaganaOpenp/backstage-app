@@ -46,7 +46,7 @@ metadata:
   name: arch
   links:
     - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
-    title: Site Arquitectura
+      title: Site Arquitectura
 spec:
   type: team
   children: []
