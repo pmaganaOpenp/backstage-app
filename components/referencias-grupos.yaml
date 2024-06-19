@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: org-data
+spec:
+  type: url
+  targets:
+    - http://github.com/myorg/myproject/org-data-dump/catalog-info-staff.yaml
+    - http://github.com/myorg/myproject/org-data-dump/catalog-info-consultants.yaml
