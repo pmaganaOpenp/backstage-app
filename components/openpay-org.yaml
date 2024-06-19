@@ -7,7 +7,7 @@ spec:
     displayName: Pedro Antonio Magaña Zapata
     email: pedroantonio.magana@openpay.mx
     picture: https://github.com/pmaganaOpenp/backstage-app/blob/main/user.jpeg
-  memberOf: [arch]
+  memberOf: [openpay-arquitectura]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -18,13 +18,32 @@ spec:
     displayName: Pedro Antonio Magaña Zapata
     email: pedroantonio.magana@openpay.mx
     picture: https://raw.githubusercontent.com/pmaganaOpenp/backstage-app/main/user.jpeg
-  memberOf: [arch]
+  memberOf: [openpay-arquitectura]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: arch
-  description: Grupo de Arquitectos
+  name: openpay-arquitectura
+  links:
+    - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
+      title: Site Arquitectura
+  description: 
+Equipo de Arquitectura
+
+Diseño de soluciones de negocio aplicando las mejores tecnologías para cada escenario.
+
+Implementación de nuevas tecnologías de desarrollo.
+
+Generación de propuestas de solución.
+
+Definición de arquitecturas macro de las aplicaciones y sus interacciones.
+
+Mejoras estructurales y optimización de componentes existentes.
+
+Lanzamiento de componentes estratégicos.
+
+Aseguramiento de calidad a nivel global
+
 spec:
   type: team
   profile:
