@@ -36,4 +36,4 @@ metadata:
 spec:
   type: s3-bucket
   owner: arch
-  system: Manager-Jobs
+  system: BackstagePOC
