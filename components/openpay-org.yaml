@@ -1,15 +1,4 @@
 apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: pedromagana
-spec:
-  profile:
-    displayName: Pedro Antonio Magaña Zapata
-    email: pedroantonio.magana@openpay.mx
-    picture: https://github.com/pmaganaOpenp/backstage-app/blob/main/user.jpeg
-  memberOf: [openpay-arquitectura]
----
-apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: openpay-arquitectura
