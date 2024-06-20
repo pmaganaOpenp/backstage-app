@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-microservicios
+  --title: Arquetipo Microservicios
   description: Ánade (Java 11, Spring Boot, Maven).
-  links: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/microservicios/%C3%A1nade
 spec:
   owner: openpay-arquitectura
 ---
@@ -11,8 +11,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-wrapper
+  title: Arquetipo Microservicios Wrapper
   description: Ajoya (Conexión a Terceros) (Java 11, Spring Boot, Maven).
-  links: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/microservicios-wrapper/ajoya
 spec:
   owner: openpay-arquitectura
 ---
@@ -20,8 +20,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-jobs
+  title: Arquetipo Jobs
   description: Azor (Java 11, Spring Boot, Maven).
-  links: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/jobs/azor
 spec:
   owner: openpay-arquitectura
 ---
@@ -29,8 +29,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-lambdas
+  title: Arquetipo Lambdas
   description: Ánsar (Java 11, Micronaut, Gradle).
-  links: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/lambdas/%C3%A1nsar
 spec:
   owner: openpay-arquitectura
 ---
