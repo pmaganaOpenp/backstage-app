@@ -18,6 +18,7 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: pmaganaOpenp
+  title: pmaganaOpenp
 spec:
   profile:
     displayName: Pedro Antonio Magaña Zapata
