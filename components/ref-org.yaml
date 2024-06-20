@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: org-data
+  name: org-openpay-data
 spec:
   type: url
   targets:
