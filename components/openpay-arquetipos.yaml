@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-microservicios
-  description: Anade (Java 11, Spring Boot, Maven).
+  description: Anade
 spec:
   owner: openpay-arquitectura
 ---
@@ -10,7 +10,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-wrapper
-  description: Ajoya (Conexión a Terceros) (Java 11, Spring Boot, Maven).
+  description: Ajoya
 spec:
   owner: openpay-arquitectura
 ---
@@ -18,7 +18,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-jobs
-  description: Azor (Java 11, Spring Boot, Maven).
+  description: Azor
 spec:
   owner: openpay-arquitectura
 ---
@@ -26,7 +26,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-lambdas
-  description: Ansar (Java 11, Micronaut, Gradle).  
+  description: Ansar
 spec:
   owner: openpay-arquitectura
 ---
