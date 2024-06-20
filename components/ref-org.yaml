@@ -23,7 +23,7 @@ spec:
   profile:
     displayName: Pedro Antonio Magaña Zapata
     email: pedroantonio.magana@openpay.mx
-  memberOf: [openpay-arquitectura]
+  memberOf: [openpay-arquitectura, openpay-chargebacks-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
