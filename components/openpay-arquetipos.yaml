@@ -1,0 +1,46 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: openpay-arquitectura
+  links:
+    - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
+      title: Site Arquitectura
+  description: Diseño de soluciones de negocio aplicando las mejores tecnologías para cada escenario.
+spec:
+  type: team
+  profile:
+    displayName: Arquitectura
+    email: arquitectura@openpay.mx
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: openpay-arquetipo-microservicios
+  description: Ánade (Java 11, Spring Boot, Maven).
+spec:
+  owner: openpay-arquitectura
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: openpay-arquetipo-wrapper
+  description: Ajoya (Conexión a Terceros) (Java 11, Spring Boot, Maven).
+spec:
+  owner: openpay-arquitectura
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: openpay-arquetipo-jobs
+  description: Azor (Java 11, Spring Boot, Maven). 
+spec:
+  owner: openpay-arquitectura
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: openpay-arquetipo-lambdas
+  description: Ánsar (Java 11, Micronaut, Gradle) 
+spec:
+  owner: openpay-arquitectura
+---
