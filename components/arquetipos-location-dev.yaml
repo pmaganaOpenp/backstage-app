@@ -1,8 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: arquetipos-location-openpay
-spec:
-  type: url
-  targets:
-    - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/arquetipos-dev.yaml
