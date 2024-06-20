@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: openpay-manager
+  title: Openpay Manager
+  description: Encargado de ejecutar jobs cada X tiempo, los jobs tienen distintos propósitos, pero principalmente son para llevar a cabo procesos de conciliación
+spec:
+  owner: openpay-arquitectura
+  domain: openpay-arquetipo-jobs
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: db-openpay
+  title: Openppay DB
+  description: Base de datos Openpay
+spec:
+  type: database
+  owner: openpay-arquitectura
+  system: openpay-manager
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: daily-chargeback-notification-job
+  title: Daily Chargeback Notification Job
+  description: Encargado de ejecutar jobs cada X tiempo, los jobs tienen distintos propósitos, pero principalmente son para llevar a cabo procesos de conciliación
+  links:
+    - url: mx.openpay.manager/src/main/java/mx/openpay/manager/jobs/DailyChargebackNotificationJob.java
+spec:
+  type: service
+  lifecycle: production
+  owner: openpay-chargebacks-team
+  domain: openpay-arquetipo-jobs
+  system: openpay-manager
+  dependsOn:
+    - resource:default/db-openpay
+---
