@@ -80,7 +80,23 @@ spec:
   dependsOn:
     - resource:default/db-openpay
   subcomponentOf: daily-chargeback-notification-job
-
+--
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: openarch-job-azor-commons
+  title: libreria openarch-job-azor-commons
+  description: Libreria mx.openpay.oa:openarch-job-azor-commons
+  links:
+    - url: https://bitbucket.org/openpay-dev/openarch-job-azor-archetype
+      title: mx.openpay.oa:openarch-job-azor-commons
+spec:
+  type: library
+  lifecycle: production
+  owner: openpay-arquitectura
+  domain: openpay-arquetipo-jobs
+  system: openpay-manager
+---
 
 
 
