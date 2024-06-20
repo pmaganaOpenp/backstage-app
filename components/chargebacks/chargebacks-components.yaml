@@ -41,8 +41,7 @@ spec:
   system: openpay-manager
   dependsOn:
     - resource:default/db-openpay
-  subcomponentOf:
-    - component:default/comercio-dashboard
+  subcomponentOf: comercio-dashboard
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
