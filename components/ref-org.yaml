@@ -5,5 +5,5 @@ metadata:
 spec:
   type: url
   targets:
-    - http://github.com/myorg/myproject/org-data-dump/catalog-info-staff.yaml
-    - http://github.com/myorg/myproject/org-data-dump/catalog-info-consultants.yaml
+    - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/grupos-dev.yaml
+    - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/users-dev.yaml
