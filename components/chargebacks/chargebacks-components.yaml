@@ -26,7 +26,8 @@ metadata:
   title: Daily Chargeback Notification Job
   description: Encargado de ejecutar jobs cada X tiempo, los jobs tienen distintos propósitos, pero principalmente son para llevar a cabo procesos de conciliación
   links:
-    - url: mx.openpay.manager/src/main/java/mx/openpay/manager/jobs/DailyChargebackNotificationJob.java
+    - url: https://bitbucket.org/openpay-dev/openpay/src/develop/mx.openpay.manager/src/main/java/mx/openpay/manager/jobs/DailyChargebackNotificationJob.java
+      title: Bitbucket Java DailyChargebackNotificationJob
 spec:
   type: service
   lifecycle: production
