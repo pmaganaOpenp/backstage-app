@@ -6,7 +6,7 @@ metadata:
   description: Ánade (Java 11, Spring Boot, Maven).
   tags:
     - maven
-    - java
+    - java+11
     - spring+boot
   links: 
     - url: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/microservicios/%C3%A1nade
@@ -19,6 +19,10 @@ metadata:
   name: openpay-arquetipo-wrapper
   title: Arquetipo Microservicios Wrapper
   description: Ajoya (Conexión a Terceros) (Java 11, Spring Boot, Maven).
+  tags:
+    - maven
+    - java+11
+    - spring+boot
   links: 
     - url: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/microservicios-wrapper/ajoya
 spec:
@@ -30,6 +34,10 @@ metadata:
   name: openpay-arquetipo-jobs
   title: Arquetipo Jobs
   description: Azor (Java 11, Spring Boot, Maven).
+  tags:
+    - maven
+    - java+11
+    - spring+boot
   links: 
     - url: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/jobs/azor
 spec:
@@ -41,6 +49,10 @@ metadata:
   name: openpay-arquetipo-lambdas
   title: Arquetipo Lambdas
   description: Ánsar (Java 11, Micronaut, Gradle).
+  tags:
+    - micronaut
+    - java+11
+    - gradle
   links: 
     - url: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/lambdas/%C3%A1nsar
 spec:
