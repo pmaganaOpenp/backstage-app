@@ -9,17 +9,3 @@ spec:
     picture: https://github.com/pmaganaOpenp/backstage-app/blob/main/user.jpeg
   memberOf: [openpay-arquitectura]
 ---
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: openpay-arquitectura
-  links:
-    - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
-      title: Site Arquitectura
-  description: Diseño de soluciones de negocio aplicando las mejores tecnologías para cada escenario.
-spec:
-  type: team
-  profile:
-    displayName: Arquitectura
-    email: arquitectura@openpay.mx
-  children: []
