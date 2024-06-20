@@ -5,5 +5,4 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/grupos-dev.yaml
-    - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/users-dev.yaml
+    - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/arquetipos-dev.yaml

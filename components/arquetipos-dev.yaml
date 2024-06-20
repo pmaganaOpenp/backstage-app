@@ -1,6 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: arquetipos-dev-openpay
+  name: microservicios-dev-openpay
+  description: Ánade (Java 11, Spring Boot, Maven)
+spec:
+  owner: openpay-arquitectura
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: jobs-dev-openpay
+  description: Azor (Java 11, Spring Boot, Maven)
+spec:
+  owner: openpay-arquitectura
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: lambdas-dev-openpay
+  description: Ánsar (Java 11, Micronaut, Gradle)
 spec:
   owner: openpay-arquitectura
