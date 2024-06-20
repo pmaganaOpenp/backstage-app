@@ -28,6 +28,8 @@ metadata:
   links:
     - url: https://bitbucket.org/openpay-dev/openpay/src/develop/mx.openpay.manager/src/main/java/mx/openpay/manager/jobs/DailyChargebackNotificationJob.java
       title: Bitbucket Java DailyChargebackNotificationJob
+    - url: https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/tbl-asociadas-chargeback.txt
+      title: Tablas asociadas
   tags:
     - mex
     - col
