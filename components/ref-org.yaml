@@ -33,3 +33,4 @@ spec:
   type: url
   targets:
     - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/openpay-arquetipos.yaml
+    - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/chargebacks-referencias.yaml
