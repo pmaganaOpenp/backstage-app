@@ -5,28 +5,3 @@ metadata:
   description: Anade
 spec:
   owner: openpay-arquitectura
----
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: openpay-arquetipo-wrapper
-  description: Ajoya
-spec:
-  owner: openpay-arquitectura
----
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: openpay-arquetipo-jobs
-  description: Azor
-spec:
-  owner: openpay-arquitectura
----
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: openpay-arquetipo-lambdas
-  description: Ansar
-spec:
-  owner: openpay-arquitectura
----
