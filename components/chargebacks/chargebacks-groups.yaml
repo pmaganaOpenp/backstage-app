@@ -42,7 +42,7 @@ metadata:
 spec:
   type: product-area
   profile:
-    displayName: Openpay Business
+    displayName: Openpay Chargebacks Product
     email: chargebacks@openpay.mx
   children: [openpay-chargebacks-team]
 ---
