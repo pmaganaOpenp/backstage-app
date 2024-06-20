@@ -5,7 +5,7 @@ metadata:
   title: Arquetipo Microservicios
   description: Ánade (Java 11, Spring Boot, Maven).
   tags:
-    - [Maven]
+    - maven
   links: 
     - url: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/microservicios/%C3%A1nade
 spec:
