@@ -1,0 +1,61 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: openpay-business
+  links:
+    - url: https://sites.google.com/openpay.mx/producto/l%C3%ADneas-de-negocio
+      title: Site Producto
+  description: Una Línea de Negocio (Business Lines)  atiende una necesidad comercial particular o una transacción de cliente en específico.
+  title: Openpay Business
+spec:
+  type: business-unit
+  profile:
+    displayName: Openpay Business
+    email: openpay@openpay.mx
+  children: [openpay-tmp-business]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: openpay-tmp-business
+  links:
+    - url: https://sites.google.com/openpay.mx/producto/l%C3%ADneas-de-negocio
+      title: Site Arquitectura
+  description: Una Línea de Negocio (Business Lines)  atiende una necesidad comercial particular o una transacción de cliente en específico.
+  title: Transfomación al modelo productivo
+spec:
+  type: business-unit
+  profile:
+    displayName: Transfomación al modelo productivo (TMP)
+    email: openpaytmp@openpay.mx
+  children: [openpay-chargebacks]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: openpay-chargebacks
+  links:
+    - url: https://sites.google.com/openpay.mx/producto/equipo
+      title: Site Arquitectura
+  description: Producto contracargos 
+spec:
+  type: product-area
+  profile:
+    displayName: Openpay Business
+    email: chargebacks@openpay.mx
+  children: [openpay-chargebacks-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: openpay-chargebacks-team
+  links:
+    - url: https://sites.google.com/openpay.mx/producto/equipo
+      title: Site Chargebacks Team
+  description: Equipo de desarrollo para los sistemas de contracargos. 
+spec:
+  type: team
+  profile:
+    displayName: Openpay Chargebacks Team
+    email: chargebacksteam@openpay.mx
+---
