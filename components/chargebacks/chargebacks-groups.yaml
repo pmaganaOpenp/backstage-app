@@ -20,7 +20,7 @@ metadata:
   name: openpay-tmp-business
   links:
     - url: https://sites.google.com/openpay.mx/producto/l%C3%ADneas-de-negocio
-      title: Site Arquitectura
+      title: Site TMP Business
   description: Una Línea de Negocio (Business Lines)  atiende una necesidad comercial particular o una transacción de cliente en específico.
   title: Transfomación al modelo productivo
 spec:
@@ -36,8 +36,9 @@ metadata:
   name: openpay-chargebacks
   links:
     - url: https://sites.google.com/openpay.mx/producto/equipo
-      title: Site Arquitectura
-  description: Producto contracargos 
+      title: Site Business Chargebacks
+  description: Producto contracargos
+  title: Chargebacks Product
 spec:
   type: product-area
   profile:
@@ -52,7 +53,8 @@ metadata:
   links:
     - url: https://sites.google.com/openpay.mx/producto/equipo
       title: Site Chargebacks Team
-  description: Equipo de desarrollo para los sistemas de contracargos. 
+  description: Equipo de desarrollo para los sistemas de contracargos.
+  title: Chargebacks Team
 spec:
   type: team
   profile:
