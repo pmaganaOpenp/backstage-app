@@ -7,7 +7,7 @@ metadata:
   tags:
     - maven
     - java
-    - spring_boot
+    - spring+boot
   links: 
     - url: https://sites.google.com/openpay.mx/sitearquitectura/documentaci%C3%B3n-general/arquetipos/microservicios/%C3%A1nade
 spec:
