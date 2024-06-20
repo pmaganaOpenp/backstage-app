@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: dashboard-updateCardChargeConfigurations
+  title: updateCardChargeConfigurations API
   description: Actualiza la configuración de tarjetas de cargo
 spec:
   type: openapi

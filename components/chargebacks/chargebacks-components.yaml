@@ -82,6 +82,8 @@ spec:
   dependsOn:
     - resource:default/db-openpay
   subcomponentOf: daily-chargeback-notification-job
+  providesApis:
+    - artist-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
