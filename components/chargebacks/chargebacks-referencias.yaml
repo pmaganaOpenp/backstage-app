@@ -7,3 +7,4 @@ spec:
   targets:
     - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/chargebacks-groups.yaml
     - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/chargebacks-users.yaml
+    - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/chargebacks-components.yaml
