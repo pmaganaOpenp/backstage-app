@@ -1,30 +1,4 @@
 apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: openpay-arquitectura
-  title: Equipo Arquitectura
-  links:
-    - url: https://sites.google.com/openpay.mx/sitearquitectura/home
-      title: Site Arquitectura
-  description: Diseño de soluciones de negocio aplicando las mejores tecnologías para cada escenario.
-spec:
-  type: team
-  profile:
-    displayName: Arquitectura
-    email: arquitectura@openpay.mx
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: pmaganaOpenp
-spec:
-  profile:
-    displayName: Pedro Antonio Magaña Zapata
-    email: pedroantonio.magana@openpay.mx
-    picture: https://github.com/pmaganaOpenp/backstage-app/blob/main/user.jpeg
-  memberOf: [openpay-arquitectura, openpay-chargebacks-team]
----
-apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: openpay-arquetipo-microservicios

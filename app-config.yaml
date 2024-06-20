@@ -89,7 +89,6 @@ catalog:
     - allow: [Component, System, API, Resource, Location]
   locations:
     - type: url
-      name: location-reference
       target: https://github.com/pmaganaOpenp/backstage-app/blob/main/components/ref-org.yaml
       rules:
         - allow: [User, Group]
