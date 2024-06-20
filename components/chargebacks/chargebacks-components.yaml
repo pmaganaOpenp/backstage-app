@@ -60,8 +60,26 @@ spec:
   system: openpay-manager
   dependsOn:
     - resource:default/db-openpay
-
-
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-charges-redirect-notificacion
+  title: Servicio api charges/redirect/notitfication
+  description: /v1/charges/redirect/notification/{redirectType}/{merchantId}
+  tags:
+    - get
+    - post
+    - text+plain
+spec:
+  type: service
+  lifecycle: production
+  owner: openpay-chargebacks-team
+  domain: openpay-arquetipo-jobs
+  system: openpay-manager
+  dependsOn:
+    - resource:default/db-openpay
+  subcomponentOf: daily-chargeback-notification-job
 
 
 
