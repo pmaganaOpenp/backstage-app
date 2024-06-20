@@ -80,7 +80,7 @@ spec:
   dependsOn:
     - resource:default/db-openpay
   subcomponentOf: daily-chargeback-notification-job
---
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
