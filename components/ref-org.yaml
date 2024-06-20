@@ -2,7 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: openpay-arquitectura
+  title: Openpay Arquitectua Team
   description: Diseño de soluciones de negocio aplicando las mejores tecnologías para cada escenario.
+  links: 
+    - url: https://sites.google.com/openpay.mx/sitearquitectura/equipo
 spec:
   type: team
   profile:
