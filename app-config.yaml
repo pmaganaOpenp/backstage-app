@@ -86,7 +86,7 @@ catalog:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
   rules:
-    - allow: [Component, System, API, Resource, Location]
+    - allow: [Component, System, API, Resource, Location, Domain]
   locations:
     - type: url
       target: https://github.com/pmaganaOpenp/backstage-app/blob/main/components/ref-org.yaml
