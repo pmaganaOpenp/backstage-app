@@ -44,6 +44,8 @@ spec:
   dependsOn:
     - resource:default/db-openpay
   subcomponentOf: comercio-dashboard
+  providesApis:
+    - dashboard-updateCardChargeConfigurations
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -82,8 +84,6 @@ spec:
   dependsOn:
     - resource:default/db-openpay
   subcomponentOf: daily-chargeback-notification-job
-  providesApis:
-    - dashboard-updateCardChargeConfigurations
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
