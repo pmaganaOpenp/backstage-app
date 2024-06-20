@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: openpay-arquitectura
-  title: Equipo Arquitectura
   links:
     - url: https://sites.google.com/openpay.mx/sitearquitectura/home
       title: Site Arquitectura
