@@ -36,4 +36,39 @@ spec:
   system: openpay-manager
   dependsOn:
     - resource:default/db-openpay
+  subcomponentOf:
+    - component:default/comercio-dashboard
 ---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: comercio-dashboard
+  title: Pantalla Comercio Dashboard
+  description: Acceder al Dashboard a la pestaña de Aministracion y posteriormente a la pestaña Monitoreo cambios y posteriormente a Comercio
+  links:
+    - url: https://bitbucket.org/openpay-dev/openpay/src/develop/mx.openpay.dashboard/src/main/webapp/WEB-INF/pages/monitoring/monitoring-merchant-list.jsp
+      title: monitoring-merchant-list.jsp
+spec:
+  type: website
+  lifecycle: production
+  owner: openpay-chargebacks-team
+  domain: openpay-arquetipo-jobs
+  system: openpay-manager
+  dependsOn:
+    - resource:default/db-openpay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
