@@ -83,7 +83,7 @@ spec:
     - resource:default/db-openpay
   subcomponentOf: daily-chargeback-notification-job
   providesApis:
-    - artist-api
+    - dashboard-updateCardChargeConfigurations
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -101,3 +101,33 @@ spec:
   domain: openpay-arquetipo-jobs
   system: openpay-manager
 ---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: dashboard-updateCardChargeConfigurations
+  title: updateCardChargeConfigurations API
+  description: Actualiza la configuración de tarjetas de cargo
+spec:
+  type: openapi
+  lifecycle: production
+  owner: openpay-chargebacks-team
+  system: openpay-manager
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: updateCardChargeConfigurations API
+      license:
+        name: Apache 2.0
+    servers:
+      - url: http://openpay.mx/net/v1
+    paths:
+      /dashboard:
+        get:
+          summary: Update Card
+    '200':
+     description: a transantion to be returned
+     content:
+     application/json:
+      schema:
+        $ref: '#/updateCardChargeConfigurations/{merchantId}'

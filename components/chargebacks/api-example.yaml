@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: dashboard-updateCardChargeConfigurations
-  title: updateCardChargeConfigurations API
+  name: dashboard-reloadCaches
+  title: reloadCaches API
   description: Actualiza la configuración de tarjetas de cargo
 spec:
   type: openapi
@@ -20,11 +20,11 @@ spec:
       - url: http://openpay.mx/net/v1
     paths:
       /dashboard:
-        get:
-          summary: Update Card
+        put:
+          summary: Reload Caches
     '200':
      description: a transantion to be returned
      content:
      application/json:
       schema:
-        $ref: '#/updateCardChargeConfigurations/{merchantId}'
+        $ref: '#/reloadCaches/reloadCaches/{merchantId}'
