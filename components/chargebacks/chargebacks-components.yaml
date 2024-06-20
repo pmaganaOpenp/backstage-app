@@ -28,6 +28,11 @@ metadata:
   links:
     - url: https://bitbucket.org/openpay-dev/openpay/src/develop/mx.openpay.manager/src/main/java/mx/openpay/manager/jobs/DailyChargebackNotificationJob.java
       title: Bitbucket Java DailyChargebackNotificationJob
+  tags:
+    - mex
+    - col
+    - role+manager
+    - internet+no
 spec:
   type: service
   lifecycle: production
