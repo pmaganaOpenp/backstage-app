@@ -8,3 +8,4 @@ spec:
     - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/chargebacks-groups.yaml
     - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/chargebacks-users.yaml
     - https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/chargebacks-components.yaml
+    - https://bitbucket.org/openpay-dev/openpay-backstage-backend-poc/src/develop/api-example.yaml
