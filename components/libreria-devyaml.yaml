@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mail-client-java
+  title: libreria mail-client-java
+  description: Libreria mx.openpay.oa:omail-client-java
+  links:
+    - url: https://bitbucket.org/openpay-dev/mail-client-pom
+      title: mx.openpay.oa:openarch-job-azor-commons
+spec:
+  type: library
+  lifecycle: production
+  owner: openpay-arquitectura
+  domain: openpay-arquetipo-jobs
+  system: openpay-manager
