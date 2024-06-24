@@ -19,7 +19,7 @@ kind: Component
 metadata:
   name: documentation-example
   annotations:
-    backstage.io/techdocs-ref: url: https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/README.md
+    backstage.io/techdocs-ref: url:https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/README.md
 spec:
   type: documentation
   lifecycle: experimental
