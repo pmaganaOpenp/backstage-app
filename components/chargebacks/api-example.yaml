@@ -1,4 +1,15 @@
 apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: documentation-example
+  annotations:
+    url: https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/README.md
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: openpay-chargebacks-team
+---
+apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: dashboard-reloadCaches
