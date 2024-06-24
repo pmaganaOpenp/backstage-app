@@ -32,3 +32,13 @@ spec:
     picture: https://github.com/pmaganaOpenp/backstage-app/blob/main/user.jpeg
   memberOf: [openpay-chargebacks-team]
 ---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: documentation-example
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: openpay-chargebacks-team

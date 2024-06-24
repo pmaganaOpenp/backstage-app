@@ -13,14 +13,3 @@ spec:
   owner: openpay-arquitectura
   domain: openpay-arquetipo-jobs
   system: openpay-manager
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: documentation-example
-  annotations:
-    backstage.io/techdocs-ref: url:https://github.com/pmaganaOpenp/backstage-app/blob/main/components/chargebacks/README.md
-spec:
-  type: documentation
-  lifecycle: experimental
-  owner: openpay-chargebacks-team
