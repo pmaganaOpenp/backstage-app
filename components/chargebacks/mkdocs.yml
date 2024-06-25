@@ -1,4 +1,4 @@
-site_name: a-unique-name-for-your-docs
+site_name: Backstage.io/openpay
 site_description: An informative description
 plugins:
   - techdocs-core
